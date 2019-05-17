@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 imageView = findViewById(R.id.imgResultado);
                 int m = 0;
-                int n = 0;
+                
                 List<Integer> op = new ArrayList<Integer>();
                 op.add(R.drawable.pedra);
                 op.add(R.drawable.papel);
@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Iterator iterator = op.iterator();
                 for (int i = 0; i < 6; i++){
-                    n++;
+
 
                     while (iterator.hasNext()){
                         m = (int) iterator.next();
