@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 imageView = findViewById(R.id.imgResultado);
                 int m = 0;
-                
+
                 List<Integer> op = new ArrayList<Integer>();
                 op.add(R.drawable.pedra);
                 op.add(R.drawable.papel);
